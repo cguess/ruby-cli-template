@@ -100,6 +100,8 @@ if ! command -v "bundle" &> /dev/null
 then
   gem install bundler
 fi
+
+rm Gemfile.lock
 bundle install
 
 read -p "What is the name for your new project?: "
