@@ -106,10 +106,9 @@ read -p "What is the name for your new project?: "
 name=${REPLY}
 
 mv 'template.rb' "$name.rb"
-# 3. Rename repo? (Move folder, rename the main file)
-# 4. Init git if set above
 
-# 2. Ask if you want to reset to a fresh git repo (forked vs cloned)
+touch '.env'
+
 echo
 echo "Do you want to reset this Git repository to a pristine state?"
 echo 'Answer "Yes" if you cloned this from a template repository,'
