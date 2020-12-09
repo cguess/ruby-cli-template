@@ -126,7 +126,7 @@ then
   git commit -a -m "Initial commit"
 fi
 
-cp -R "../RubyCLITemplate" "../$name"
+mv "../RubyCLITemplate" "../$name"
 
 if [[ $keep_flag != "true" ]]; then
   rm "../$name/setup.sh"
