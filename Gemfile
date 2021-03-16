@@ -26,7 +26,7 @@ gem "smarter_csv"
 gem "parallel"
 
 # Make stuff spinny and pretty
-gem "whirly"
+gem "whirly", git: "https://github.com/cguess/whirly"
 gem "paint" # makes whirly colorful (recommended)
 
 # Ruby LPR for Sublime
