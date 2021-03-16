@@ -31,6 +31,3 @@ gem "paint" # makes whirly colorful (recommended)
 
 # Ruby LPR for Sublime
 gem "solargraph"
-
-# Jard is a better debugger for Ruby
-gem "ruby_jard"
