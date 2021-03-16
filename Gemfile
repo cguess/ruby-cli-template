@@ -33,4 +33,4 @@ gem "paint" # makes whirly colorful (recommended)
 gem "solargraph"
 
 # Jard is a better debugger for Ruby
-gem "jard"
+gem "ruby_jard"
